@@ -1,69 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <!-- NAVBAR -->
 <nav>
-    <h2>My Portfolio</h2>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+  <h2>My Portfolio</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 </nav>
 
 <!-- HOME -->
 <section id="home">
-    <img src="images/profile.jpg" alt="My Photo" width="150">
-    <h1>Your Name</h1>
-    <p>Short introduction about yourself</p>
+  <img src="images/profile.jpg" class="profile">
+  <h1>Your Name</h1>
+  <p>A passionate student interested in technology and innovation.</p>
 </section>
 
 <!-- ABOUT -->
 <section id="about">
-    <h2>About Me</h2>
-    <p>Education, interests, goals, strengths</p>
+  <h2>About Me</h2>
+  <p><b>Education:</b> Your School/College</p>
+  <p><b>Interests:</b> Coding, AI, Design</p>
+  <p><b>Goals:</b> Become a successful developer</p>
+  <p><b>Strengths:</b> Problem-solving, creativity</p>
 </section>
 
 <!-- ACHIEVEMENTS -->
 <section id="achievements">
-    <h2>Achievements</h2>
-    <div>
-        <h3>Coursera Certificate</h3>
-        <img src="images/coursera.jpg" width="200">
-        <p>Description</p>
-    </div>
+  <h2>Achievements</h2>
+
+  <div class="card">
+    <img src="images/coursera.jpg">
+    <h3>Coursera Certificate</h3>
+    <p>Completed online course in programming.</p>
+  </div>
+
+  <div class="card">
+    <img src="images/netacad.jpg">
+    <h3>Netacad Certificate</h3>
+    <p>Learned networking fundamentals.</p>
+  </div>
+
+  <div class="card">
+    <img src="images/yuva.jpg">
+    <h3>Yuva AI Certificate</h3>
+    <p>Participated in AI learning program.</p>
+  </div>
+
 </section>
 
 <!-- PROJECTS -->
 <section id="projects">
-    <h2>Projects</h2>
-    <div>
-        <h3>Ai4A Project</h3>
-        <p>Description + link</p>
-    </div>
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>AI4A Project</h3>
+    <p>AI-based project solving real-world problems.</p>
+    <a href="#">View Project</a>
+  </div>
+
+  <div class="card">
+    <h3>Design Thinking Project</h3>
+    <p>Creative problem-solving project.</p>
+  </div>
+
+  <div class="card">
+    <h3>ACE Project</h3>
+    <p>Applied computing project.</p>
+  </div>
+
 </section>
 
 <!-- GALLERY -->
 <section id="gallery">
-    <h2>Gallery</h2>
-    <img src="images/certificate1.jpg" width="150">
+  <h2>Gallery</h2>
+  <img src="images/c1.jpg">
+  <img src="images/c2.jpg">
+  <img src="images/c3.jpg">
 </section>
 
 <!-- CONTACT -->
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-    <p>Phone: XXXXXXXX</p>
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>Phone: 1234567890</p>
+  <p>GitHub: https://github.com/yourusername</p>
 </section>
 
+<script src="script.js"></script>
 </body>
 </html>
